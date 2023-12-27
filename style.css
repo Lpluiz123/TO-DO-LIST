@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 100vh;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.container {
+    text-align: center;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    gap: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.container h1 {
+    color: rgb(31, 113, 172);
+    ;
+    margin-bottom: 25px;
+}
+
+
+.content input {
+    background-color: rgb(31, 113, 172);
+    color: aliceblue;
+    padding-left: 10px;
+    border: none;
+    border-radius: 4px;
+    height: 25px;
+    width: 100%;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.adicionar-item {
+    background-color: rgb(31, 113, 172);
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    width: 20%;
+    margin-bottom: 15px;
+    color: #FFF;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-item {
+    background: #FFF;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 8px 0 8px;
+}
+
+.buttom-item {
+
+    background-color: rgb(31, 113, 172);
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    width: 30%;
+    margin-bottom: 15px;
+    color: #FFF;
+}
+
+.done {
+    color: #df0404;
+}
